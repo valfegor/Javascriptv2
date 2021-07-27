@@ -48,6 +48,7 @@ for(let i= 0 ; i<3;i++){
 
 
 //como abrir ventanas emergentes.
+//tambien puede abrir ventanas emergentes mas pequeñas
 
 
 const ventana = () => {
