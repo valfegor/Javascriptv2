@@ -19,3 +19,43 @@
 
 //ejemplo de alerts en un for.
 
+
+let boton = document.getElementById("for");
+
+boton.onclick = ()=> {
+
+emergente();
+ventanas();
+
+}
+
+
+const emergente = () => {
+
+for(let i= 0 ; i<3;i++){
+    if(i=1){
+        alert("soy el primer alert");
+    }
+    if(i=2){
+        alert("soy el segundo alert");
+    }
+    if(i=3){
+        alert("soy el tercer alert");
+    }
+}
+
+};
+
+
+//como abrir ventanas emergentes.
+
+
+const ventana = () => {
+
+    for(let j = 0 ; j<2 ; j++){
+
+        window.open("https://zoom.us/postattendee?id=4");
+    
+    }
+}
+
