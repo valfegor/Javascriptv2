@@ -177,7 +177,9 @@ boton.addEventListener("click" , () =>{
     
     }
 
-
+    if(operacion==5){
+        alert("ha salido");
+    }
 
 });
 
