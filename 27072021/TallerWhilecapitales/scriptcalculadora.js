@@ -150,7 +150,7 @@ boton.addEventListener("click" , () =>{
                 numero1 = parseFloat(prompt("Digite por favor el primer numero"));
                 numero2 = parseFloat(prompt("Por favor digite el segundo numero"));
             }
-            resultado=numero1 * numero2;
+            resultado=numero1 / numero2;
             alert(`el resultado de ambos numeros es ${resultado}`);
         
             operacion = parseInt(prompt("4.continuar 5.salir"));
@@ -178,7 +178,7 @@ boton.addEventListener("click" , () =>{
     }
 
     if(operacion==5){
-        alert("ha salido");
+        return alert("ha salido");
     }
 
 });
