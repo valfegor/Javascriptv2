@@ -36,16 +36,17 @@ boton.addEventListener("click" , () =>{
             resultado=numero1 + numero2;
             alert(`el resultado de ambos numeros es ${resultado}`);
         
-            operacion = parseInt(prompt("2.salir"));
+            operacion = parseInt(prompt("5.salir"));
             
-            if(operacion==2){
-            alert("ha salido");
-            break;
-            }
-            while(operacion!=1 && operacion !=2){
-                operacion = parseInt(prompt("1.continuar 2.salir"));
+           
+            while(operacion!=1 && operacion !=5){
+                operacion = parseInt(prompt("1.continuar 5.salir"));
             }
             
+            if(operacion==5){
+                alert("ha salido");
+                break;
+                }
             
     }
     
@@ -74,16 +75,17 @@ boton.addEventListener("click" , () =>{
             resultado=numero1 - numero2;
             alert(`el resultado de ambos numeros es ${resultado}`);
         
-            operacion = parseInt(prompt("2.continuar 3.salir"));
+            operacion = parseInt(prompt("2.continuar 5.salir"));
             
-            if(operacion==3){
-            alert("ha salido");
-            break;
-            }
-            while(operacion!=2 && operacion !=3){
-                operacion = parseInt(prompt("2.continuar 3.salir"));
+           
+            while(operacion!=2 && operacion !=5){
+                operacion = parseInt(prompt("2.continuar 5.salir"));
             }
             
+            if(operacion==5){
+                alert("ha salido");
+                break;
+                }
             
     }
     
@@ -113,16 +115,16 @@ boton.addEventListener("click" , () =>{
             resultado=numero1 * numero2;
             alert(`el resultado de ambos numeros es ${resultado}`);
         
-            operacion = parseInt(prompt("3.continuar 4.salir"));
+            operacion = parseInt(prompt("3.continuar 5.salir"));
             
-            if(operacion==4){
-            alert("ha salido");
-            break;
-            }
-            while(operacion!=3 && operacion !=4){
-                operacion = parseInt(prompt("3.continuar 3.salir"));
-            }
             
+            while(operacion!=3 && operacion !=5){
+                operacion = parseInt(prompt("3.continuar 5.salir"));
+            }
+            if(operacion==5){
+                alert("ha salido");
+                break;
+                }
             
     }
     
@@ -153,13 +155,16 @@ boton.addEventListener("click" , () =>{
         
             operacion = parseInt(prompt("4.continuar 5.salir"));
             
-            if(operacion==5){
-            alert("ha salido");
-            break;
-            }
+            
+
             while(operacion!=4 && operacion !=5){
                 operacion = parseInt(prompt("4.continuar 5.salir"));
             }
+
+            if(operacion==5){
+                alert("ha salido");
+                break;
+                }
             
             
     }
