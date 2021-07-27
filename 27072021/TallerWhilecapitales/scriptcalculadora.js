@@ -36,7 +36,7 @@ boton.addEventListener("click" , () =>{
             resultado=numero1 + numero2;
             alert(`el resultado de ambos numeros es ${resultado}`);
         
-            operacion = parseInt(prompt("5.salir"));
+            operacion = parseInt(prompt("1continuar 5.salir"));
             
            
             while(operacion!=1 && operacion !=5){
