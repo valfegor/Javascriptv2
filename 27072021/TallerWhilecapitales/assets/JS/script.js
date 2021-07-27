@@ -3,7 +3,7 @@ url = document.getElementById("tiempito");
 capital = document.getElementById("capital");
 
 let opcion = prompt(
-  "Bienvenido por favor escriba un departamento , recuerde utilizar el numero 5 para salir"
+  "Bienvenido por favor escriba un departamento"
 );
 opcion = opcion.toLocaleLowerCase();
 
@@ -47,7 +47,7 @@ while (
 ) {
   alert("seleccione una opcion valida");
   opcion = prompt(
-    "Bienvenido por favor escriba un departamento , recuerde utilizar el numero 5 para salir"
+    "No ha seleccionado una opcion valida por favor revise o ingrese el numero 5 para salir"
   );
   opcion = opcion.toLocaleLowerCase();
 
@@ -319,6 +319,4 @@ else if(opcion=="sucre"){
     setTimeout(function(){
     location.href="http://www.vichada.gov.co/";
     },1000 * 5) 
-}else if(opcion==""){
-    alert("Digite por favor un departamento");
 }
