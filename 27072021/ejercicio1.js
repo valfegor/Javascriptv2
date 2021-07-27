@@ -21,10 +21,21 @@ let mes = fecha.getMonth() + 1;
 
 
 //obtener el dia
-let dia = fecha.getUTCDay();
+//day envia lunes 1 martes 2 miercoles 3
+//el dia actual es con date.
+let dia = fecha.getDate();
 
 
 console.log(fecha);
 
 
 console.log(año + "/" + mes + "/" + mes);
+
+
+
+//manejo de la hora.
+
+
+let hora = fecha.getHours()+":" + fecha.getMinutes();
+
+console.log("la hora es " + " " + hora);
