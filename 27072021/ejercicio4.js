@@ -27,3 +27,37 @@ for(let i = 0 ; i<animales.length;i++){
     console.log(acumulador);
 }
 
+//como agregar un item a un arreglo.
+
+//solo si se en que posicion.
+
+animales[6] = "dragon";
+
+//si se ubica un nuevo valor en una posicion ya existente se modifica el arreglo original.
+
+//para agregar otro elemento se puede utilizar el metodo de array .push
+//este metodo ingresa directamente a la ultima posicion del arreglo.
+//estructura interna del push animales[animales.length] = "Dragon";
+
+
+animales.push("Ardilla");
+
+
+//para agregar al inicio del array.
+
+animales.unshift = ("chester");
+
+
+//en un array se pueden eliminar items.
+
+//'chester','perro','gato','serpiente','lobo','escorpion','conejo','dragon','ardilla'
+
+//mala practica
+delete animales[5];
+
+//manera optima de eliminar es con splice.
+
+//posicion 5 y eliminar hacia adelante
+animales.splice(5,1);
+//esto lo quita se reorganiza el array.
+
