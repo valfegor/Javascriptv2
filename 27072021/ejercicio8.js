@@ -29,3 +29,4 @@ switch(terminos){
 
 (terminos==="Y")?resultado=true:resultado=false;
 
+(edad>=18 && terminos==="Y")?console.log("Si puede ver las peliculas"):console.log("no puede ver las pelis");
